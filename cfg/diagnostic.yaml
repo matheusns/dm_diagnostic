@@ -1,0 +1,7 @@
+pub_rate: 1.0
+  analyzers:
+    camera:
+      type: GenericAnalyzer
+      path: 'Camera'
+      timeout: 5.0
+      contains: 'camera'
